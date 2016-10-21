@@ -32,7 +32,7 @@ public class HBaseRestStringExample {
         UriComponents uri =
                 UriComponentsBuilder.newInstance()
                         .scheme("http")
-                        .host("sunman0.field.hortonworks.com")
+                        .host("xxxx.xxxx,hortonworks.com")
                         .port(7775)
                         .build()
                         .encode();
@@ -61,7 +61,7 @@ public class HBaseRestStringExample {
         UriComponents uri =
                 UriComponentsBuilder.newInstance()
                         .scheme("http")
-                        .host("sunman0.field.hortonworks.com")
+                        .host("xxxx.xxxx,hortonworks.com")
                         .port(7775)
                         .path("/{table}/{type}/")
                         .build()
